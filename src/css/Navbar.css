@@ -1,0 +1,21 @@
+.Navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Navbar button {
+    margin: 1vw;
+    padding: 1vw 1.5vw;
+    font-size: 1.8vw;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: transparent;
+    filter: drop-shadow(0.1vw 0.2vw 0.1vw rgba(0, 0, 0, 0.4));
+}

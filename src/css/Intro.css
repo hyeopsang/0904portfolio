@@ -1,0 +1,34 @@
+.Intro{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: #fff;
+    cursor: default;
+}
+.Intro p{
+    color: #fff;
+    font-size: 10vw;
+    font-weight: 800;
+    margin: 0 0 10vw 0;
+    text-wrap: wrap;
+    text-align: center;
+    z-index: 50;
+}
+.face{
+    width: 30%;
+    height: auto;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+}
+.face img{
+    width: 100%;
+    height: auto;
+}
+
+

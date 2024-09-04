@@ -1,0 +1,206 @@
+.modalContent .swiper-container {
+    width: 100%;
+    height: auto;
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* 슬라이드가 부모 요소의 전체 너비를 차지하도록 설정 */
+    margin-bottom: 15px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    width: 50px;
+    height: 50px;
+    color: #000 !important;
+    z-index: 1000;
+}
+
+.swiper-pagination-bullet {
+    background: #000 !important;
+    padding: 2px;
+}
+.ProjectMore{
+    width: 100%;
+    height: 100vh;
+    z-index: 100000;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    scrollbar-width: none;
+}
+.MoreIn {
+    padding: 100px 0;
+    width: 100%;
+    height: fit-content;
+    background-color: rgba(0, 0, 0, 0.7); /* Overlay color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure modal is on top of other content */
+}
+
+.modalContent {
+    position: relative;
+    width: 60%;
+    background-color: #fff;
+    padding: 20px;
+    padding-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+
+}
+.modalContent h2{
+    padding: 0 0 20px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.modalContent strong{
+    font-size: 20px;
+}
+.modalContent p{
+    font-size: 20px;
+}
+.swiper-slide .projectImage {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.Button{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+.Button a{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Button a:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.Button img{
+    width: 60%;
+    height: auto;
+}
+.Button button{
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #000;
+    font-weight: 800;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Button button:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.github{
+    position: relative;
+}
+.github img{
+    width: 80%;
+    height: auto;
+}
+.github::after{
+    content: "깃허브";
+    position: absolute;
+    width: 70px;
+    background-color: #000;
+    font-size: 15px;
+    color: #fff;
+    padding: 7px 0;
+    border-radius: 7px;
+    top: 75px;
+    opacity: 0;
+    pointer-events: none;
+}
+.github:hover::after {
+    opacity: 1;
+    transition: 0.3s;
+}
+.site::after{
+    content: "배포 사이트";
+    position: absolute;
+    width: 90px;
+    background-color: #000;
+    font-size: 15px;
+    color: #fff;
+    padding: 7px 0;
+    border-radius: 7px;
+    top: 75px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.site:hover::after{
+    opacity: 1;
+    transition: 0.3s;
+}
+.skillList{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.detailBtn{
+    width: 60%;
+    height: fit-content;
+    color: #000;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+}
+.detailBtn .skillName{
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.skillName p{
+    margin: 0;
+}
+.skillName span{
+    margin: 2px 0 0 5px;
+}
+.detailBtn .skillDetail{
+    padding: 10px 0 10px 0;
+    width: 90%;
+    height: fit-content;
+    color: #000;
+    text-align: center;
+    margin: 0 ;
+    font-size: 18px;
+}
+
