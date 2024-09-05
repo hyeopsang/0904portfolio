@@ -14,7 +14,7 @@ export default function ProjectList({ onModal }) {
       skills: {
         name: ["React.js", "Tailwind", ],
         skillDetail: {
-          "React.js": "",
+          "React.js": "Context를 활용하면 애플리케이션 전체에서 상태를 효율적으로 공유하고 관리할 수 있습니다.",
           "Tailwind": "CSS를 빠르게 스타일을 적용 할수 있고 tailwind.config.js 파일을 통해 색상 팔레트, 스타일링, 간격 등을 사용자 정의할 수 있습니다."
         }
       } 
@@ -47,7 +47,7 @@ export default function ProjectList({ onModal }) {
       skills: {
         name: ["React"],
         skillDetail: {
-          "React.js": ""
+          "React.js": "리액트 컴포넌트를 사용하여 재사용성과 유지보수성을 높였습니다."
         },
       },
       api: ["Weaher API"]
